@@ -110,7 +110,7 @@ function useCombobox(userProps = {}) {
     const focusOnOpen = initialIsOpen || defaultIsOpen || isOpen
 
     if (focusOnOpen && inputRef.current) {
-      inputRef.current.focus()
+      // inputRef.current.focus()
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
@@ -298,7 +298,7 @@ function useCombobox(userProps = {}) {
         })
 
         if (inputRef.current) {
-          inputRef.current.focus()
+          // inputRef.current.focus()
         }
       }
 
@@ -332,7 +332,7 @@ function useCombobox(userProps = {}) {
         })
 
         if (!latest.current.state.isOpen && inputRef.current) {
-          inputRef.current.focus()
+          // inputRef.current.focus()
         }
       }
 

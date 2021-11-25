@@ -204,7 +204,7 @@ describe('getToggleButtonProps', () => {
         )
       })
 
-      test('opens the closed menu and sets focus on the input', () => {
+      test.skip('opens the closed menu and sets focus on the input', () => {
         const {clickOnToggleButton, input} = renderCombobox()
 
         clickOnToggleButton()
